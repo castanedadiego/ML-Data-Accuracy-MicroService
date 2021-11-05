@@ -27,4 +27,4 @@ Deploying to a Docker container would also be a logical next step.
 
 To visualize the data, more GET endpoints could be added which automatically call MatPlotLib on the data.
 
-There is more to it but wanted to keep this short. Looking forward to discussing the solution and decisions with you! I found interesting how the predictions became increasingly more accurate as we got further into the pitch count of an event e.g. (3-2 balls, outs) will be more accurate than (0-0).
+There is more to it but wanted to keep this short.  I found interesting how the predictions became increasingly more accurate as we got further into the pitch count of an event e.g. (3-2 balls, outs) will be more accurate than (0-0).
