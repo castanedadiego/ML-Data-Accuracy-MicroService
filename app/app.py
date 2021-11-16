@@ -9,7 +9,6 @@ HOST = "0.0.0.0"
 
 DATA= {
     "all" : "stats unknown, upload a file to analyze",
-
 }
 
 #GET ENDPOINTS
@@ -28,9 +27,7 @@ def boxplot():
     box.figure.savefig("static/images/boxplot.png")
     return render_template('boxplot.html', name = 'BoxPlot', url ='/static/images/boxplot.png')
 
-
 #POST ENDPOINTS
-
 @app.route("/uploader", methods= ['POST'])
 def uploader():
     if request.method == "POST":

@@ -19,7 +19,6 @@ def correct(row):
 def build_df(csv_addy):
     df= pd.read_csv(csv_addy)
     df["correct"]= df.apply(lambda row: correct(row), axis= 1)
-
     return df
 
 def get_accuracy(df):
@@ -32,7 +31,6 @@ def get_reach_mean(df):
 
 def get_N(df):
     return len(df)
-
 
 def get_data(df):
 
